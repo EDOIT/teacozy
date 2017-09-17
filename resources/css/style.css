@@ -79,3 +79,29 @@ flex-wrap: wrap;
     width: 300px;
     height: 200px;
 }
+.locations {
+display: flex;
+position: relative;
+margin-top: 20px;
+margin-left: 100px;
+width: 1000px;
+height: 600px;
+justify-content: center;
+flex-wrap: wrap;
+background-image: url("../images/img-locations-background.jpg");
+}
+.title {
+  display: block;
+  margin-top: 50px;
+  width: 1000px;
+  text-align: center;
+}
+.locals {
+  display: block;
+  text-align: center;
+  margin: 0px 10px;
+  width: 300px;
+  height: 250px;
+  opacity: 1;
+  background-color: black;
+}
